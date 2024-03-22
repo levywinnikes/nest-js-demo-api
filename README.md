@@ -27,20 +27,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-# Maria DB Docker install:
+# Maria DB Docker install example:
 $ docker run --name todo-database -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123 -d mariadb:latest
 
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
